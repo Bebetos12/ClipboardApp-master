@@ -1,0 +1,40 @@
+.footer {
+  background-color: #f9f9f9; /* Background color of the footer */
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust max width as needed */
+}
+
+.logo img {
+  height: 40px; /* Adjust logo height as needed */
+}
+
+.links {
+  display: flex;
+  gap: 20px; /* Adjust spacing between links */
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Adjust spacing between social icons */
+}
+
+.social-icons img {
+  height: 20px; /* Adjust icon height as needed */
+}

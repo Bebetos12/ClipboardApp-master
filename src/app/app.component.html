@@ -1,0 +1,10 @@
+<div class="app-container">
+  <app-header (downloadClicked)="showQRCode('ios') "></app-header>
+  <app-snippets-section></app-snippets-section>
+  <app-access-anywhere-section></app-access-anywhere-section>
+  <app-workflow-section></app-workflow-section>
+  <app-partner-logos></app-partner-logos>
+  <app-platform-download-section (downloadClicked)="showQRCode('mac')"></app-platform-download-section>
+  <app-qr-popup [showPopup]="(showPopup$ | async) ?? false" [qrCodeUrl]="(qrCodeUrl$ | async) || ''" (close)="closeQrPopup()"></app-qr-popup>
+  <app-footer></app-footer>
+</div>

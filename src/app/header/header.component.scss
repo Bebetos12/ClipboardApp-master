@@ -1,0 +1,66 @@
+.header {
+  background: linear-gradient(135deg, #f0f8ff, #e8f5ff); /* Gradient background */
+  background-image: url("/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  padding: 100px 20px; /* Adjust padding as needed */
+  text-align: center;
+  font-family: sans-serif; /* Use a suitable font */
+}
+
+.header-content {
+  max-width: 1600px; /* Adjust max-width as needed */
+  margin: 0 auto;
+}
+
+.logo {
+  img {
+    width: 100px; /* Adjust logo size */
+    margin-bottom: 60px;
+  }
+}
+
+.title-description {
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 48px; /* Adjust font size */
+  color: #333; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 20px; /* Adjust font size */
+  color: #666; /* Medium gray text */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ios-button,
+.mac-button {
+  padding: 20px 40px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  transition: box-shadow 0.5s ease; /* Transition for box-shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Subtile box-shadow */
+}
+
+.ios-button {
+  background: linear-gradient(135deg, #2ecc71, #27ae60); /* Dégradé vert */
+}
+
+.mac-button {
+  background: linear-gradient(135deg, #6366f1, #4f46e5); /* Dégradé violet */
+}
+
+.ios-button:hover,
+.mac-button:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Box-shadow on hover */
+}

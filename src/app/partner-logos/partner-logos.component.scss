@@ -1,0 +1,17 @@
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; // Adjust spacing as needed
+  
+    img {
+      height: auto; // Maintain aspect ratio
+      max-width: 100px; // Adjust max width as needed
+      opacity: 0.5; // Apply opacity for a muted look (as in the image)
+  
+      // Optional: Add hover effect to increase opacity
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
