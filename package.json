@@ -14,7 +14,7 @@
       "applypatch-msg": "echo 'husky: applypatch-msg'",
       "pre-applypatch": "echo 'husky: pre-applypatch'",
       "post-applypatch": "echo 'husky: post-applypatch'",
-      "pre-commit": "echo 'husky: pre-commit'",
+      "pre-commit": "echo 'husky: pre-commit'"
     }
   },
 
