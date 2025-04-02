@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { QrCodeService } from '../qr-code.service';
 
-
 @Component({
   selector: 'app-platform-download-section',
   standalone: true,

@@ -1,7 +1,8 @@
 import Dexie, { Table } from 'dexie';
 import { Injectable } from '@angular/core';
 
-export interface ApiData { // Replace with your actual data structure
+export interface ApiData {
+  // Replace with your actual data structure
   id?: number;
   title: string;
   content: string;

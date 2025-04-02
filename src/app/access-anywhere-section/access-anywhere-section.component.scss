@@ -1,36 +1,36 @@
 .section-two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; /* Center text */
-    padding: 80px 20px; /* Add padding for spacing */
-    font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #f9f9f9; /* Light background */
-  
-    .section-two-heading {
-      font-size: 2.2rem; /* Adjusted font size */
-      font-weight: 600;
-      color: hsl(210, 10%, 33%);
-      margin-bottom: 20px; /* Adjusted margin */
-    }
-  
-    .section-two-content {
-      font-size: 1.1rem; /* Adjusted font size */
-      color: hsl(201, 11%, 66%);
-      line-height: 1.8;
-      padding: 0 5rem; /* Adjusted padding */
-      margin-bottom: 50px; /* Adjusted margin */
-    }
-  
-    .section-two-image {
-      max-width: 100%; /* Make image responsive */
-      height: auto;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text */
+  padding: 80px 20px; /* Add padding for spacing */
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color: #f9f9f9; /* Light background */
+
+  .section-two-heading {
+    font-size: 2.2rem; /* Adjusted font size */
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px; /* Adjusted margin */
   }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .section-two-content {
-      padding: 0 2rem; /* Adjust padding for smaller screens */
-    }
+
+  .section-two-content {
+    font-size: 1.1rem; /* Adjusted font size */
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+    padding: 0 5rem; /* Adjusted padding */
+    margin-bottom: 50px; /* Adjusted margin */
   }
+
+  .section-two-image {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-two-content {
+    padding: 0 2rem; /* Adjust padding for smaller screens */
+  }
+}

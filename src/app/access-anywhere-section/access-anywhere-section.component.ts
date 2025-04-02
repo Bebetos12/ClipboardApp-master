@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-access-anywhere-section',
   imports: [],
   templateUrl: './access-anywhere-section.component.html',
-  styleUrl: './access-anywhere-section.component.scss'
+  styleUrl: './access-anywhere-section.component.scss',
 })
-export class AccessAnywhereSectionComponent {
-
-}
+export class AccessAnywhereSectionComponent {}

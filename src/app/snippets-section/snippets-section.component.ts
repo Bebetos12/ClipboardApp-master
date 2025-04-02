@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-snippets-section',
   standalone: true,
   templateUrl: './snippets-section.component.html',
-  styleUrls: ['./snippets-section.component.scss']
+  styleUrls: ['./snippets-section.component.scss'],
 })
 export class SnippetsSectionComponent {
   // You can add properties and methods for the snippets section logic here.

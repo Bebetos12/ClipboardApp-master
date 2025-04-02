@@ -6,21 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts,.html --fix"
   },
-
-  "husky": {
-    "hooks": {
-      "applypatch-msg": "echo 'husky: applypatch-msg'",
-      "pre-applypatch": "echo 'husky: pre-applypatch'",
-      "post-applypatch": "echo 'husky: post-applypatch'",
-      "pre-commit": "echo 'husky: pre-commit'"
-    }
-  },
-
-
-
-
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.4",
@@ -42,13 +32,29 @@
     "@angular-devkit/build-angular": "^19.2.5",
     "@angular/cli": "^19.2.5",
     "@angular/compiler-cli": "^19.2.4",
+    "@eslint/js": "^9.23.0",
     "@types/jasmine": "~5.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.7.2"
+    "prettier": "^3.5.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.29.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm test"
+    }
   }
 }

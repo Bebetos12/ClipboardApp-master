@@ -8,9 +8,8 @@ describe('QrPopupComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [QrPopupComponent]
-    })
-    .compileComponents();
+      imports: [QrPopupComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(QrPopupComponent);
     component = fixture.componentInstance;

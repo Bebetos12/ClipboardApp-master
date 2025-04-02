@@ -1,67 +1,67 @@
 .section-three {
-    padding: 80px 20px;
-    font-family: 'Bai Jamjuree', sans-serif;
-    text-align: center;
-    background-color: #f9f9f9; /* Light background */
-  
-    .section-three-sub-container {
-      margin-bottom: 60px;
-  
-      .section-three-sub-container-heading {
-        font-size: 3.2rem;
-        font-weight: 600;
-        color: hsl(210, 10%, 33%);
-        margin-bottom: 20px;
-      }
-  
-      .section-three-sub-container-content {
-        font-size: 2.1rem;
-        color: hsl(201, 11%, 66%);
-        line-height: 1.8;
-        padding: 0 5rem;
-      }
+  padding: 80px 20px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background */
+
+  .section-three-sub-container {
+    margin-bottom: 60px;
+
+    .section-three-sub-container-heading {
+      font-size: 3.2rem;
+      font-weight: 600;
+      color: hsl(210, 10%, 33%);
+      margin-bottom: 20px;
     }
-  
-    .section-three-articles {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap; /* Add flex-wrap for responsiveness */
-      margin: 4rem 2rem; /* Adjusted margin */
-  
-      article {
-        padding: 2rem;
-        max-width: 300px; /* Limit article width */
-      }
-  
-      .section-three-art-img {
-        margin-bottom: 20px;
-        max-width: 60px; /* Adjust image size */
-        height: auto;
-      }
-  
-      h2 {
-        font-size: 2.3rem; /* Adjusted heading size */
-        font-weight: 600;
-        color: hsl(210, 10%, 33%);
-        margin-bottom: 15px;
-      }
-  
-      p {
-        font-size: 1rem;
-        color: hsl(201, 11%, 66%);
-        line-height: 1.6;
-      }
-    }
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .section-three-articles {
-      flex-direction: column; /* Stack articles on smaller screens */
-      align-items: center;
-    }
-  
+
     .section-three-sub-container-content {
-      padding: 0 2rem; /* Adjust padding for smaller screens */
+      font-size: 2.1rem;
+      color: hsl(201, 11%, 66%);
+      line-height: 1.8;
+      padding: 0 5rem;
     }
   }
+
+  .section-three-articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Add flex-wrap for responsiveness */
+    margin: 4rem 2rem; /* Adjusted margin */
+
+    article {
+      padding: 2rem;
+      max-width: 300px; /* Limit article width */
+    }
+
+    .section-three-art-img {
+      margin-bottom: 20px;
+      max-width: 60px; /* Adjust image size */
+      height: auto;
+    }
+
+    h2 {
+      font-size: 2.3rem; /* Adjusted heading size */
+      font-weight: 600;
+      color: hsl(210, 10%, 33%);
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: hsl(201, 11%, 66%);
+      line-height: 1.6;
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-three-articles {
+    flex-direction: column; /* Stack articles on smaller screens */
+    align-items: center;
+  }
+
+  .section-three-sub-container-content {
+    padding: 0 2rem; /* Adjust padding for smaller screens */
+  }
+}

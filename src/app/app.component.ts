@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { QrPopupComponent } from "./qr-popup/qr-popup.component";
-import { FooterComponent } from "./footer/footer.component";
-import { PlatformDownloadSectionComponent } from "./platform-download-section/platform-download-section.component";
-import { PartnerLogosComponent } from "./partner-logos/partner-logos.component";
-import { AccessAnywhereSectionComponent } from "./access-anywhere-section/access-anywhere-section.component";
-import { WorkflowSectionComponent } from "./workflow-section/workflow-section.component";
-import { SnippetsSectionComponent } from "./snippets-section/snippets-section.component";
-import { HeaderComponent } from "./header/header.component";
+import { QrPopupComponent } from './qr-popup/qr-popup.component';
+import { FooterComponent } from './footer/footer.component';
+import { PlatformDownloadSectionComponent } from './platform-download-section/platform-download-section.component';
+import { PartnerLogosComponent } from './partner-logos/partner-logos.component';
+import { AccessAnywhereSectionComponent } from './access-anywhere-section/access-anywhere-section.component';
+import { WorkflowSectionComponent } from './workflow-section/workflow-section.component';
+import { SnippetsSectionComponent } from './snippets-section/snippets-section.component';
+import { HeaderComponent } from './header/header.component';
 import { QrCodeService } from './qr-code.service';
 import { CommonModule } from '@angular/common';
 @Component({
@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
     WorkflowSectionComponent,
     SnippetsSectionComponent,
     HeaderComponent,
-    CommonModule
+    CommonModule,
   ],
 })
 export class AppComponent {
@@ -35,7 +35,8 @@ export class AppComponent {
     this.qrCodeUrl$ = this.qrCodeService.qrCodeUrl$;
   }
 
-  showQRCode(platform: string) { // Corrected method signature
+  showQRCode(platform: string) {
+    // Corrected method signature
     // Example (using a placeholder):
     if (platform === 'ios') {
       this.qrCodeUrl$ = 'https://api.api-ninjas.com/v1/qrcode?format=png&data=https://api-ninjas.com'; // Replace with actual URL

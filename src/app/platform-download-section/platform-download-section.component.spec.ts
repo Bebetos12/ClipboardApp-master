@@ -8,9 +8,8 @@ describe('PlatformDownloadSectionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PlatformDownloadSectionComponent]
-    })
-    .compileComponents();
+      imports: [PlatformDownloadSectionComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PlatformDownloadSectionComponent);
     component = fixture.componentInstance;

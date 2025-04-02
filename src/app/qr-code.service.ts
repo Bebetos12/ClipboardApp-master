@@ -5,7 +5,8 @@ import { BehaviorSubject } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
-export class QrCodeService { // Assurez-vous que le nom de la classe est correct
+export class QrCodeService {
+  // Assurez-vous que le nom de la classe est correct
   private showPopupSubject = new BehaviorSubject<boolean>(false);
   showPopup$ = this.showPopupSubject.asObservable();
 

@@ -8,9 +8,8 @@ describe('AccessAnywhereSectionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AccessAnywhereSectionComponent]
-    })
-    .compileComponents();
+      imports: [AccessAnywhereSectionComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(AccessAnywhereSectionComponent);
     component = fixture.componentInstance;

@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-partner-logos',
   imports: [],
   templateUrl: './partner-logos.component.html',
-  styleUrl: './partner-logos.component.scss'
+  styleUrl: './partner-logos.component.scss',
 })
-export class PartnerLogosComponent {
-
-}
+export class PartnerLogosComponent {}

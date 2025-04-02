@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-workflow-section',
   standalone: true,
   templateUrl: './workflow-section.component.html',
-  styleUrls: ['./workflow-section.component.scss']
+  styleUrls: ['./workflow-section.component.scss'],
 })
 export class WorkflowSectionComponent {
   // You can add properties and methods for the workflow section logic here.

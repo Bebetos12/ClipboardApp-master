@@ -5,10 +5,10 @@ import { QrCodeService } from '../qr-code.service';
   selector: 'app-header',
   imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-constructor(@Inject(QrCodeService) private qrCodeService: QrCodeService) {}
+  constructor(@Inject(QrCodeService) private qrCodeService: QrCodeService) {}
 
   onDownloadClicked(platform: string) {
     console.log(`Download clicked for ${platform}`);

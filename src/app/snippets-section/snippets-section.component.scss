@@ -1,96 +1,96 @@
 .section-one {
-    padding: 100px 20px;
-    font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #f9f9f9; /* Light background */
-  
-    .section-container-one {
-      text-align: center;
-      margin-bottom: 80px;
-  
-      .section-one-h2 {
-        font-size: 2.5rem; /* Adjusted font size */
+  padding: 100px 20px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color: #f9f9f9; /* Light background */
+
+  .section-container-one {
+    text-align: center;
+    margin-bottom: 80px;
+
+    .section-one-h2 {
+      font-size: 2.5rem; /* Adjusted font size */
+      font-weight: 600;
+      color: hsl(210, 10%, 33%);
+      margin-bottom: 30px;
+    }
+
+    .section-one-lead {
+      font-size: 1.1rem; /* Adjusted font size */
+      color: hsl(201, 11%, 66%);
+      line-height: 1.8;
+      padding: 0 10rem; /* Adjusted padding */
+    }
+  }
+
+  .section-one-container-two {
+    display: flex;
+    flex-wrap: wrap; /* Changed to wrap for responsiveness */
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .section-one-img-container {
+    flex: 1 1 60%;
+    text-align: center;
+
+    .computer-image {
+      max-width: 90%; /* Changed to max-width */
+      height: auto;
+      transform: translateX(0); /* Removed transform */
+    }
+  }
+
+  .section-one-articles-container {
+    flex: 1 1 40%;
+    padding: 30px;
+
+    article {
+      margin-bottom: 40px;
+      text-align: left;
+      padding-left: 0;
+      padding-right: 2rem; /* Adjusted padding */
+
+      h2 {
+        font-size: 1.8rem; /* Adjusted font size */
         font-weight: 600;
         color: hsl(210, 10%, 33%);
-        margin-bottom: 30px;
+        margin-bottom: 15px;
       }
-  
-      .section-one-lead {
-        font-size: 1.1rem; /* Adjusted font size */
+
+      p {
+        font-size: 1rem;
         color: hsl(201, 11%, 66%);
-        line-height: 1.8;
-        padding: 0 10rem; /* Adjusted padding */
+        line-height: 1.6;
       }
     }
-  
-    .section-one-container-two {
-      display: flex;
-      flex-wrap: wrap; /* Changed to wrap for responsiveness */
-      align-items: flex-start;
-      justify-content: center;
+
+    article:first-of-type {
+      padding-top: 0;
     }
-  
-    .section-one-img-container {
-      flex: 1 1 60%;
-      text-align: center;
-  
-      .computer-image {
-        max-width: 90%; /* Changed to max-width */
-        height: auto;
-        transform: translateX(0); /* Removed transform */
-      }
-    }
-  
-    .section-one-articles-container {
-      flex: 1 1 40%;
-      padding: 30px;
-  
-      article {
-        margin-bottom: 40px;
-        text-align: left;
-        padding-left: 0;
-        padding-right: 2rem; /* Adjusted padding */
-  
-        h2 {
-          font-size: 1.8rem; /* Adjusted font size */
-          font-weight: 600;
-          color: hsl(210, 10%, 33%);
-          margin-bottom: 15px;
-        }
-  
-        p {
-          font-size: 1rem;
-          color: hsl(201, 11%, 66%);
-          line-height: 1.6;
-        }
-      }
-  
-      article:first-of-type {
-        padding-top: 0;
-      }
-  
-      article:nth-of-type(2) {
-        padding-bottom: 0;
-      }
+
+    article:nth-of-type(2) {
+      padding-bottom: 0;
     }
   }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .section-one-container-two {
-      flex-direction: column; /* Stack on smaller screens */
-      align-items: center;
-    }
-  
-    .section-one-img-container {
-      flex: 1 1 100%;
-    }
-  
-    .section-one-articles-container {
-      flex: 1 1 100%;
-      padding: 20px;
-    }
-  
-    .section-one-lead {
-      padding: 0 2rem; /* Adjust padding for smaller screens */
-    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-one-container-two {
+    flex-direction: column; /* Stack on smaller screens */
+    align-items: center;
   }
+
+  .section-one-img-container {
+    flex: 1 1 100%;
+  }
+
+  .section-one-articles-container {
+    flex: 1 1 100%;
+    padding: 20px;
+  }
+
+  .section-one-lead {
+    padding: 0 2rem; /* Adjust padding for smaller screens */
+  }
+}

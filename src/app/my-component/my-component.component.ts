@@ -13,7 +13,10 @@ import { NgFor } from '@angular/common';
 export class MyComponent implements OnInit {
   data: ApiData[] = []; // Initialize data as an empty array
 
-  constructor(private dexieService: DexieService, private http: HttpClient) {}
+  constructor(
+    private dexieService: DexieService,
+    private http: HttpClient
+  ) {}
 
   ngOnInit() {
     this.loadData();
