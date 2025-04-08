@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="accessClipboardHeading" datatype="html">
+        <source>Access Clipboard anywhere</source>
+        <target>Accédez au Presse-papiers partout</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/access-anywhere-section/access-anywhere-section.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1456742758331563143" datatype="html">
+        <source> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks. </source>
+        <target> Que vous soyez en déplacement ou sur votre ordinateur, vous pouvez accéder à tous vos extraits du Presse-papiers en quelques clics. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/access-anywhere-section/access-anywhere-section.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <note priority="1" from="description">Explains the ability to access clipboard snippets from different devices</note>
+        <note priority="1" from="meaning">accessClipboardContent</note>
+      </trans-unit>
+      <trans-unit id="footerFaqs" datatype="html">
+        <source>FAQs</source>
+        <target>FAQ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerContactUs" datatype="html">
+        <source>Contact Us</source>
+        <target>Contactez-nous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerPrivacyPolicy" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Politique de confidentialité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerPressKit" datatype="html">
+        <source>Press Kit</source>
+        <target>Dossier de presse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerInstallGuide" datatype="html">
+        <source>Install Guide</source>
+        <target>Guide d'installation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="headerTitle" datatype="html">
+        <source>A history of everything you copy</source>
+        <target>Un historique de tout ce que vous copiez</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="418182780547056104" datatype="html">
+        <source> Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices. </source>
+        <target> Le Presse-papiers vous permet de suivre et d'organiser tout ce que vous copiez. Accédez instantanément à votre presse-papiers sur tous vos appareils. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">9,14</context>
+        </context-group>
+        <note priority="1" from="description">Explains the main functionality of the Clipboard application</note>
+        <note priority="1" from="meaning">headerDescription</note>
+      </trans-unit>
+      <trans-unit id="downloadIosButton" datatype="html">
+        <source>Download for iOS</source>
+        <target>Télécharger pour iOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="downloadMacButton" datatype="html">
+        <source>Download for Mac</source>
+        <target>Télécharger pour Mac</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="platformDownloadTitle" datatype="html">
+        <source>Clipboard for iOS and Mac OS</source>
+        <target>Presse-papiers pour iOS et Mac OS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/platform-download-section/platform-download-section.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7942250168013987712" datatype="html">
+        <source> Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you&apos;re ready to start adding to your clipboard. </source>
+        <target> Disponible gratuitement sur l'App Store. Téléchargez pour Mac ou iOS, synchronisez avec iCloud et vous êtes prêt à commencer à ajouter à votre presse-papiers. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/platform-download-section/platform-download-section.component.html</context>
+          <context context-type="linenumber">4,8</context>
+        </context-group>
+        <note priority="1" from="description">Describes the availability and features of Clipboard on iOS and macOS</note>
+        <note priority="1" from="meaning">platformDownloadDescription</note>
+      </trans-unit>
+      <trans-unit id="downloadIosButtonPlatform" datatype="html">
+        <source>Download for iOS</source>
+        <target>Télécharger pour iOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/platform-download-section/platform-download-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="downloadMacButtonPlatform" datatype="html">
+        <source>Download for Mac</source>
+        <target>Télécharger pour Mac</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/platform-download-section/platform-download-section.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="qrCodeCloseButton" datatype="html">
+        <source>Fermer</source>
+        <target>Fermer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/qr-popup/qr-popup.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionOneHeading" datatype="html">
+        <source>Keep track of your snippets</source>
+        <target>Gardez une trace de vos extraits</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3246055339008944918" datatype="html">
+        <source> Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything. </source>
+        <target> Le Presse-papiers enregistre instantanément tout ce que vous copiez dans le cloud, ce qui signifie que vous pouvez accéder à vos extraits immédiatement sur tous vos appareils. Nos applications Mac et iOS vous aideront à tout organiser. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">6,11</context>
+        </context-group>
+        <note priority="1" from="description">Explains the core benefits of using Clipboard to track snippets</note>
+        <note priority="1" from="meaning">sectionOneLead</note>
+      </trans-unit>
+      <trans-unit id="quickSearchTitle" datatype="html">
+        <source>Quick Search</source>
+        <target>Recherche rapide</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6896294978285390067" datatype="html">
+        <source>Easily search your snippets by content, category, web address, application, and more.</source>
+        <target>Recherchez facilement vos extraits par contenu, catégorie, adresse web, application, et plus encore.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+        <note priority="1" from="description">Describes the quick search functionality</note>
+        <note priority="1" from="meaning">quickSearchDescription</note>
+      </trans-unit>
+      <trans-unit id="iCloudSyncTitle" datatype="html">
+        <source>iCloud Sync</source>
+        <target>Synchronisation iCloud</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1403399025366175944" datatype="html">
+        <source>Instantly saves and syncs snippets across all your devices.</source>
+        <target>Enregistre et synchronise instantanément les extraits sur tous vos appareils.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">21,24</context>
+        </context-group>
+        <note priority="1" from="description">Explains the iCloud synchronization feature</note>
+        <note priority="1" from="meaning">iCloudSyncDescription</note>
+      </trans-unit>
+      <trans-unit id="completeHistoryTitle" datatype="html">
+        <source>Complete History</source>
+        <target>Historique complet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4143221158801758496" datatype="html">
+        <source>Retrieve any snippets from the first moment you started using the app.</source>
+        <target>Récupérez n'importe quel extrait depuis le premier instant où vous avez commencé à utiliser l'application.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/snippets-section/snippets-section.component.html</context>
+          <context context-type="linenumber">25,30</context>
+        </context-group>
+        <note priority="1" from="description">Explains the complete history feature</note>
+        <note priority="1" from="meaning">completeHistoryDescription</note>
+      </trans-unit>
+      <trans-unit id="superchargeWorkflowHeading" datatype="html">
+        <source>Supercharge your workflow</source>
+        <target>Boostez votre flux de travail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/workflow-section/workflow-section.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="superchargeWorkflowSubheading" datatype="html">
+        <source>We’ve got the tools to boost your productivity.</source>
+        <target>Nous avons les outils pour augmenter votre productivité.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/workflow-section/workflow-section.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createBlacklistsTitle" datatype="html">
+        <source>Create blacklists</source>
+        <target>Créer des listes noires</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/workflow-section/workflow-section.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3013806691975276899" datatype="html">
+        <source> Ensure sensitive information never makes its way to your clipboard by excluding certain sources. </source>
+        <target> Assurez-vous que les informations sensibles n'atteignent jamais votre presse-papiers en excluant certaines sources. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/workflow-section/workflow-section.component.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+        <note priority="1" from="description">Explains the blacklist feature</note>
+        <note priority="1" from="meaning">createBlacklistsDescription</note>
+      </trans-unit>
+      <trans-unit id="plainTextSnippetsTitle" datatype="html">
+        <source>Plain text snippets</source>
+        <target>Extraits de texte brut</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/workflow-section/workflow-section.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>

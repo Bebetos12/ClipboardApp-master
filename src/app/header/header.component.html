@@ -4,15 +4,15 @@
       <img src="/logo.svg" alt="Clipboard Logo" />
     </div>
     <div class="title-description">
-      <h1 class="title">A history of everything you copy</h1>
-      <p class="description">
+      <h1 class="title" i18n="@@headerTitle">A history of everything you copy</h1>
+      <p class="description" i18n="headerDescription|Explains the main functionality of the Clipboard application">
         Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
         devices.
       </p>
     </div>
     <div class="buttons">
-      <button class="ios-button" (click)="onDownloadClicked('ios')">Download for iOS</button>
-      <button class="mac-button" (click)="onDownloadClicked('mac')">Download for Mac</button>
+      <button class="ios-button" (click)="onDownloadClicked('ios')" i18n="@@downloadIosButton">Download for iOS</button>
+      <button class="mac-button" (click)="onDownloadClicked('mac')" i18n="@@downloadMacButton">Download for Mac</button>
     </div>
   </div>
-</header>
+</header> 

@@ -8,6 +8,7 @@
   <app-qr-popup
     [showPopup]="(showPopup$ | async) ?? false"
     [qrCodeUrl]="(qrCodeUrl$ | async) || ''"
+    alt="QR Code" i18n="@@qrCodePopupImageAlt"
     (close)="closeQrPopup()"
   ></app-qr-popup>
   <app-footer></app-footer>

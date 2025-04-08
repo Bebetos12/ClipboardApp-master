@@ -1,4 +1,4 @@
 <div class="qr-popup" *ngIf="showPopup">
-  <img [src]="qrCodeUrl" alt="QR Code" />
-  <button (click)="closePopup()">Fermer</button>
+  <img [src]="qrCodeUrl" alt="QR Code" i18n="@@qrCodeImageAlt" />
+  <button (click)="closePopup()" i18n="@@qrCodeCloseButton">Fermer</button>
 </div>
